@@ -1,0 +1,14 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "123456",
+    "database": "izzy",
+    "logging": true,
+    "synchronize": true,
+    "entities": ["src/entities/*.ts", "dist/entities/*.js"]
+  }
+]

@@ -44,8 +44,7 @@ import { LOGIN } from '../constants/routes';
 interface IAppProps {}
 
 const App: React.FC<IAppProps> = () => {
-  const API_KEY =
-    'AAPK74963c8488bc45109841f65a8894400f8Tb_cu2RT-vt632jdSxsQcNJ8DBHCkdFqXRB-ghfOfvo5qXMI2UgU0EIXntXem84';
+  const API_KEY = '';
 
   useEffect(() => {
     esriConfig.apiKey = API_KEY;

@@ -1,4 +1,4 @@
-# Docusign Backend
+# Docusign Backend for Save Chimps
 
 ### Requirements
 
@@ -43,7 +43,6 @@ You must have a local postgres server running on your machine.k To know more rea
 
 You must have nodejs installed on your machine, [Node.js 10 or later with npm 5 or later](https://nodejs.org/en/download/).
 
-j
 Install all the packages and run the server
 
 ```

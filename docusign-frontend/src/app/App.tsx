@@ -22,29 +22,30 @@ import StakeholderRoute from '../components/Routes/StakeHolderRoute';
 import Home from '../features/Home/Home';
 import Login from '../features/Auth/Login/Login';
 
-import StartAudit from '../features/ArcGISUser/StartAudit/StartAudit';
-import ArcGISUserDashboard from '../features/ArcGISUser/ArcGISUserDashboard/ArcGISUserDashboard';
+import ArcGISUserDashboard from '../features/ArcGisUser/ArcGISUserDashboard/ArcGISUserDashboard';
 
-import AddOrEditRevsionRequest from '../features/Stakeholder/AddOrEditRevisionRequest/AddOrEditRevsionRequest';
 import { Loading } from '../components/Loading';
-import ViewAudit from '../features/ArcGISUser/ViewAudit/ViewAudit';
-import StakeholderDashboard from '../features/Stakeholder/StakeholderDashboard/StakeholderDashboard';
-import ReviewAudit from '../features/Stakeholder/ReviewAudit/ReviewAudit';
-import AuditInvitations from '../features/Stakeholder/AuditInvitations/AuditInvitations';
-import MyRevisionRequests from '../features/Stakeholder/MyRevisionRequests/MyRevisionRequests';
-import OngoingAudits from '../features/ArcGISUser/OngoingAudits/OngoingAudits';
-import ViewRevisionRequest from '../features/ArcGISUser/ViewRevisionRequest/ViewRevisionRequest';
-import FinishedAuditsArcGISUser from '../features/ArcGISUser/FinishedAuditsArcGISUser/FinishedAuditsArcGISUser';
-import ViewFinalAudit from '../features/ArcGISUser/ViewFinalAudit/ViewFinalAudit';
-import CompletedAudits from '../features/Stakeholder/CompletedAudits/CompletedAudits';
-import FinishSigningDocument from '../features/Stakeholder/FinishSigningDocument/FinishSigningDocument';
+import ViewAudit from '../features/ArcGisUser/ViewAudit/ViewAudit';
+import ReviewAudit from '../features/StakeHolder/ReviewAudit/ReviewAudit';
+import AuditInvitations from '../features/StakeHolder/AuditInvitations/AuditInvitations';
+import MyRevisionRequests from '../features/StakeHolder/MyRevisionRequests/MyRevisionRequests';
+import OngoingAudits from '../features/ArcGisUser/OngoingAudits/OngoingAudits';
+import ViewRevisionRequest from '../features/ArcGisUser/ViewRevisionRequest/ViewRevisionRequest';
+import FinishedAuditsArcGISUser from '../features/ArcGisUser/FinishedAuditsArcGISUser/FinishedAuditsArcGISUser';
+import ViewFinalAudit from '../features/ArcGisUser/ViewFinalAudit/ViewFinalAudit';
+import CompletedAudits from '../features/StakeHolder/CompletedAudits/CompletedAudits';
+import FinishSigningDocument from '../features/StakeHolder/FinishSigningDocument/FinishSigningDocument';
 import Register from '../features/Auth/Register/Register';
 import { LOGIN } from '../constants/routes';
+import AddOrEditRevsionRequest from '../features/StakeHolder/AddOrEditRevisionRequest/AddOrEditRevsionRequest';
+import StartAudit from '../features/ArcGisUser/StartAudit/StartAudit';
+import StakeholderDashboard from '../features/StakeHolder/StakeHolderDashboard/StakeHolderDashboard';
 
 interface IAppProps {}
 
 const App: React.FC<IAppProps> = () => {
-  const API_KEY = '';
+  const API_KEY =
+    'AAPK74963c8488bc45109841f65a8894400f8Tb_cu2RT-vt632jdSxsQcNJ8DBHCkdFqXRB-ghfOfvo5qXMI2UgU0EIXntXem84';
 
   useEffect(() => {
     esriConfig.apiKey = API_KEY;

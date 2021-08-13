@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarthakarora1208/docusign-backend.git"
+    "url": ""
   },
   "author": "Sarthak Arora",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarthakarora1208/docusign-backend/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/sarthakarora1208/docusign-backend#readme",
+  "homepage": "",
   "dependencies": {
     "@types/fs-extra": "^9.0.12",
     "@types/pdfkit": "^0.11.2",

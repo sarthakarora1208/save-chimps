@@ -28,7 +28,6 @@
   </p>
 </p>
 
-Devpost Link: [https://devpost.com/software/save-chimps](https://devpost.com/software/save-chimps)
 
 ## Inspiration
 

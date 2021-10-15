@@ -37,7 +37,7 @@ Follow the instructions at [https://github.com/docusign/code-examples-node](http
 
 ### PostgreSQL
 
-You must have a local postgres server running on your machine.k To know more read at (https://www.postgresql.org/download/macosx/)
+You must have a local postgres server running on your machine. To know more read at (https://www.postgresql.org/download/macosx/)
 
 ### Nodejs
 
